@@ -1,0 +1,122 @@
+/* Global */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: url('http://wwwimages.adobe.com/content/dam/acom/en/products/photoshop/max2016/images/ps-marquee1440x660.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   color: white;
+   font-size: 20px;
+}
+
+h3 {
+  border: 1px solid white;
+
+}
+
+h1 {
+  border-bottom: 1px solid white;
+}
+
+p {
+  padding: 5px;
+}
+
+/* Navbar */
+.topbar {
+
+}
+
+.branding {
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+}
+
+.navbar ul {
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+/* Showcase */
+.textarea {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.textarea img {
+  width: 30%;
+}
+
+/* Steps */
+
+.contain {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.steps-area {
+  margin-top: 50px;
+}
+
+.steps {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 10px auto;
+  width: 45%;
+}
+
+.foot {
+  color: yellow;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .branding, .navbar {
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  .navbar ul {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
